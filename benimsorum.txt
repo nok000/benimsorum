@@ -1,0 +1,44 @@
+class ATM{
+	insan i;
+	insan [] musteriler=new insan [100];
+	boolean onay=false;
+	public ATM(insan i){
+		this.i;
+	}
+	void paracekmek(int miktar){
+		if(onay)
+		i.bakiye-=miktar;
+	}
+	void paracekmek(int miktar,insan x){
+		if(onay)
+		x.bakiye-=miktar;
+	}
+	void parayatirmak(int miktar){
+		if(onay)
+		i.bakiye+=miktar;
+	}
+	void giris(int sifre){
+		for(int j=0;j<musteriler.length;j++){
+			if(musteriler[j].hno==i.hno)
+				if(musteriler[j}.sifre==i.sifre)
+					onay=true;
+		}
+	}
+	void cikis(){
+		onay=false;
+	}
+}
+
+class insna{
+	int sifre;
+	int hno;
+	int bakiye;
+}
+public class test{
+	public static void main(string args[]){
+		insan ali=new insan();
+		ali.hno=123;
+		ali.sifre=321;
+		ATM a=new(ali);
+	}
+}

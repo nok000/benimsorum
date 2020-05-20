@@ -1,0 +1,1 @@
+Bir bankanın ATM cihazına gelen müşteriler, giriş (şifre yazarak), para yatırma, para çekme ve bakiye sorgulama işlemlerini yapabilmektedir. Bu sistemi nesne yönelimli olarak modelleyiniz, ihtiyaç duyuluyorsa ilave sınıfları da tanımlayınız. Her sınıfın metotlarını ve özelliklerini belirtiniz ve modeli
